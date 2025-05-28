@@ -96,8 +96,7 @@ additional DHCP options. You can add these DHCP options as follows:
 ## Configuring Helper Tool
 
 Next, we will use the udm-iptv package to get IPTV working on your LAN.
-This package uses [igmpproxy](https://github.com/pali/igmpproxy) to route 
-multicast IPTV traffic between WAN and LAN.
+This package uses [improxy](https://github.com/haibbo/improxy), which comes default with Unifi OS since version 3.1.15 (for Dream Machines) or version 3.2.5 (for Express), to route multicast IPTV traffic between WAN and LAN.
 
 ### Installation
 SSH into your machine and execute the commands below in UniFi OS (not in UbiOS).
